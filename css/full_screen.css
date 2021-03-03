@@ -1,0 +1,11 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.logo-img {
+	width: 74px;
+	height: 30px;
+}
