@@ -5,7 +5,88 @@
 	text-decoration: none;
 }
 
+body {
+	font-family: "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
+	letter-spacing: -0.4px;
+}
+
 .logo-img {
 	width: 74px;
 	height: 30px;
+	margin-right: 35px;
+}
+
+.navigation-primary-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	max-width: 1256px;
+	padding: 10px 60px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.navigation-primary-menu_item {
+	display: inline-block;
+	margin: 6px 10px 0;
+	padding: 14px 6px;
+	color: #424242;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.navigation-primary-menu_item:first-child {
+	color: #35c5f0;
+}
+
+.navigation-primary-right {
+	flex: 1 0 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigation-search {
+	width: 266px;
+	height: 40px;
+	box-sizing: border-box;
+	margin: 13px 10px 7px 0;
+	padding: 8px 9px 10px 39px;
+	font-size: 15px;
+	line-height: 20px;
+	background-color: #fff;
+	color: #424242;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+}
+
+.navigation-member {
+	display: inline-block;
+	margin: 20px -9px 16px -7px;
+	white-space: nowrap;
+}
+
+.navigation-member_item {
+	margin: 0 9px 0 8px;
+	padding: 2px;
+	color: #757575;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.navigation-upload-button {
+	width: 100px;
+	padding: 8px 0 10px;
+	margin: 14px 0 0 20px;
+	border: none;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	background-color: #35c5f0;
+	border-radius: 4px;
 }
