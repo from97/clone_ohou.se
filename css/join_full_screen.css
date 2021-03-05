@@ -135,6 +135,14 @@ img.logo {
     font-weight: 700;
 }
 
+.terms-agree_row {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+    font-size: 14px;
+}
+
 .form-check {
     box-sizing: border-box;
     width: 22px;
@@ -154,4 +162,32 @@ img.logo {
     border-radius: 4px;
     padding: 26px 0;
     font-weight: 700;
+}
+
+p.sign-in {
+    color: #424242;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a.sign-in_link {
+    color: #424242;
+    padding-left: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.join-sns_list {
+    display: flex;
+    justify-content: center;
+}
+
+.join-sns_item {
+    margin: 0 10px;
+}
+
+.join-sns_item > img {
+    width: 50px;
+    height: 50px;
 }
