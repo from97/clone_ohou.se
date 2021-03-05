@@ -99,6 +99,10 @@ body {
 	line-height: 20px;
 }
 
+.navigation-member_item:hover {
+	color: #35c5f0;
+}
+
 .navigation-member_item::after {
 	content: "";
 	position: absolute;
