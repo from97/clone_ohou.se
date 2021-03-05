@@ -580,3 +580,31 @@ p.footer_copyright {
 	width: 100%;
 	flex: 0 0 100%;
 }
+
+.drop-down {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	border-radius: 6px;
+	width: 340px;
+	box-sizing: border-box;
+	padding: 8px;
+	box-shadow: 0 4px 10px 0 rgb(63 71 77 / 20%);
+	z-index: 1000;
+	float:right;
+	height: fit-content;
+}
+
+.drop-down_item {
+	padding: 15px 0 15px 15px;
+	transition: background-color .1s;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #424242;
+}
+
+.drop-down_item:hover {
+	background-color: #f7f8fa;
+}
