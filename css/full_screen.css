@@ -193,13 +193,17 @@ body {
 
 .story_img {
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 0;
+    left: 0;
     width: 100%;
     min-height: 100%;
     transition: transform .2s;
 }
+
+.story_img:hover {
+	transform: scale(1.05);
+}
+
 
 .home-header_banner {
 	display: flex;
@@ -219,6 +223,57 @@ body {
 	position: relative;
 	overflow: hidden;
 	border-radius: 6px;
+}
+
+.banner_control {
+	padding: 20px 15px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	background: linear-gradient(180deg,transparent,rgba(0,0,0,.3));
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+
+.banner_control_icon {
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 350;
+	color: #fff;
+	position: relative;
+	border-radius: 100%;
+	cursor: pointer;
+	transition: background-color .2s;
+	line-height: 40px;
+}
+
+.banner_control_icon:hover {
+	background-color: #35c5f0;
+}
+
+.banner_control_page {
+	display: flex;
+	flex: 1 0 auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_control_page_item_button {
+	display: block;
+	width: 6px;
+	height: 6px;
+	margin: 0 2.5px;
+	border: none;
+	border-radius: 100%;
+	background-color: #fff;
 }
 
 .banner_img {
@@ -509,4 +564,15 @@ p.footer_copyright {
 
 .navigation-search-input:focus {
 	outline: 0;
+}
+
+.slide-list {
+	display: flex;
+}
+
+.slide-content {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	flex: 0 0 100%;
 }
